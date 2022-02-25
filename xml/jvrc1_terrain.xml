@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mujoco model="jvrc1">
     <compiler angle="radian" meshdir="../meshes" />
-    <size njmax="500" nconmax="200" nuser_actuator="1" />
+    <size njmax="1200" nconmax="200" nuser_actuator="1" />
 
     <option timestep="0.001" iterations="50" tolerance="1e-10" solver="Newton" jacobian="dense" cone="pyramidal" />
 
