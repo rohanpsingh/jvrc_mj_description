@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <mujoco model="jvrc1">
     <compiler angle="radian" meshdir="../meshes" />
-    <size njmax="1200" nconmax="200" nuser_actuator="1" />
+    <size njmax="1200" nconmax="400" nuser_actuator="1" />
 
     <option timestep="0.001" iterations="50" tolerance="1e-10" solver="Newton" jacobian="dense" cone="pyramidal" />
 
@@ -16,7 +16,7 @@
         </default>
     </default>
     <visual>
-        <map force="0.1" zfar="30" />
+        <map force="0.01" zfar="30" />
         <rgba haze="0.15 0.25 0.35 1" />
         <quality shadowsize="2048" />
         <global offwidth="800" offheight="800" />
