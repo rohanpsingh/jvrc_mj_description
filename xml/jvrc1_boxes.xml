@@ -145,10 +145,11 @@
                                 <body name="R_ANKLE_P_S" pos="0 0 0">
                                     <inertial pos="0.03 0 -0.07" quat="0 0.707107 0 0.707107" mass="1.5" diaginertia="0.00621667 0.00561667 0.00141667" />
                                     <joint name="R_ANKLE_P" axis="0 1 0" range="-1.48353 0.959931" armature="0.1337" />
-                                    <geom class="collision" quat="0.707105 0 0 0.707108" mesh="R_ANKLE_P_S_mesh" />
+                                    <geom class="collision" size="0.1 0.05 0.01" pos="0.029 0 -0.09778" type="box" />
                                     <geom class="visual" quat="0.707105 0 0 0.707108" mesh="R_ANKLE_P_S_vis" />
                                     <!-- site for right foot f/t sensor -->
-                                    <site name="rf_force" size="0.01" pos="0.0 0.0 -0.1" />
+				    <!-- <site name="rf_force" size="0.01" pos="0.0 0.0 -0.1" /> -->
+                                    <site name="rf_force" size="0.01" pos="0.03 0.0 -0.1" />
                                 </body>
                             </body>
                         </body>
@@ -180,10 +181,11 @@
                                 <body name="L_ANKLE_P_S" pos="0 0 0">
                                     <inertial pos="0.03 0 -0.07" quat="0 0.707107 0 0.707107" mass="1.5" diaginertia="0.00621667 0.00561667 0.00141667" />
                                     <joint name="L_ANKLE_P" axis="0 1 0" range="-1.48353 0.959931" armature="0.1337" />
-                                    <geom class="collision" quat="0.707105 0 0 0.707108" mesh="L_ANKLE_P_S_mesh" />
+                                    <geom class="collision" size="0.1 0.05 0.01" pos="0.029 0 -0.09778" type="box" />
                                     <geom class="visual" quat="0.707105 0 0 0.707108" mesh="L_ANKLE_P_S_vis" />
                                     <!-- site for left foot f/t sensor -->
-                                    <site name="lf_force" size="0.01" pos="0.0 0.0 -0.1" />
+				    <!-- <site name="lf_force" size="0.01" pos="0.0 0.0 -0.1" /> -->
+                                    <site name="lf_force" size="0.01" pos="0.03 0.0 -0.1" />
                                 </body>
                             </body>
                         </body>
