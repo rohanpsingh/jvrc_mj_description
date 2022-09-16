@@ -88,27 +88,6 @@
     </contact>
 
     <worldbody>
-        <geom name="box01" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box02" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box03" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box04" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box05" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box06" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box07" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box08" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box09" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box10" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box11" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box12" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box13" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box14" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box15" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box16" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box17" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box18" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box19" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-        <geom name="box20" pos="0 0 -0.2" class="collision" group="0"  size="1 1 0.1" type="box" material="" />
-
         <geom name="floor" pos="0 0 0.001" size="0 0 .25" type="plane" material="matplane" condim="3"/>
         <light directional="false" diffuse="0.2 0.2 0.2" specular="0 0 0" pos="0 0 2" dir="0 0 -1" castshadow="false" />
         <light mode="targetbodycom" target="PELVIS_S" directional="false" diffuse=".8 .8 .8" specular="0.3 0.3 0.3" pos="0 0 4.0" dir="0 0 -1" />
